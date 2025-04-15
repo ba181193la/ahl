@@ -1,0 +1,127 @@
+
+/* div[class~='inner'] {
+   background-color: aqua;
+} */
+
+/* .box>p{
+    color: brown;
+} */
+
+/* .box :first-child{
+    color: red;
+    }
+.box :nth-child(4){
+color: red;
+} */
+
+/* simple nav bar flex */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap'); */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/* header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 15px 10%;
+}
+
+.logo{
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+}
+.nav-link li{
+    padding: 0 20px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;
+}
+.nav-link a:hover{
+    color: orangered;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: orangered;
+    border: none;
+    color:white;
+    border-radius:10px ;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    
+} */
+
+                          /* /* SIMPLE NAVIGATION */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Smooch+Sans:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", serif;
+}
+nav{
+    margin-top: 200px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    transform: skew(-25deg);
+}
+nav ul li{
+    background-color: azure;
+    float: left;
+    padding: 5px 10px;
+    box-shadow: 1.95px 1.95px 2.6px rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+    color: black;
+    transition: all .2s linear;
+}
+nav ul li:hover{
+    background-color: orangered;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav ul li:first-child{
+    border-radius: 7px 0 0 7px;
+
+}
+nav ul li:last-child{
+    border-radius:0 7px  7px 0;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: brown;
+    padding: 10px 20px;
+
+    /* color: rgba(179, 59, 59, 0.411); */
+}
+
+/* .nav-link{
+    margin-top: auto;
+    background-color: red;
+} */

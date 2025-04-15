@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: "Lobster", serif;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(106, 115, 141);
+            flex-direction: column;
+        }
+        h1{
+            margin-bottom: 20px;
+            font-weight: normal;
+            color: rgb(183, 34, 34);
+        }
+        input{
+            width: 400px;
+            height: 50px;
+            outline: none;
+
+        }
+        input:invalid{
+            border-color: red;
+            animation: input 1.5s infinite;
+        }
+        input:valid{
+            border-color: rgb(118, 209, 118);
+        }
+     
+     @keyframes input {
+    0%{transform: translateX(4px);}
+    50%{transform: translateX(-4px)}
+    100%{transform: translateX(4px);}
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SPINERR IN CSS</h1>
+    <input pattern="[a-z]*" />
+</body>
+
+</html>

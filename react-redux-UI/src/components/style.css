@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Table Container Styling */
+.table-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  /* Table Header Styling */
+  .table-header {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Table Row Styling for Draggable Effect */
+  .table-row {
+    cursor: grab;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Hover effect on table rows */
+  .table-row:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Styling for Table Cells */
+  .MuiTableCell-root {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Adjustments for table layout and responsiveness */
+  @media (max-width: 600px) {
+    .MuiTableCell-root {
+      padding: 8px;
+    }
+  }

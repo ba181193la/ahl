@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./animation.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Lobster", serif;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        h1 {
+            background: rgb(84, 139, 99);
+            background: linear-gradient(90deg, rgba(84, 139, 99, 1) 35%, rgba(165, 47, 27, 1) 70%);
+            background-size: 400% 400%;
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            animation: textAnimation 5s ease infinite;
+
+        }
+
+        @keyframes textAnimation {
+            0% {
+                background-position: 0%;
+            }
+
+            50% {
+                background-position: 100%;
+            }
+
+            100% {
+                background-position: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>balamurugan</h1>
+</body>
+
+</html>

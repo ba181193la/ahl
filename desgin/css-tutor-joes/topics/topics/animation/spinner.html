@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: "Lobster", serif;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(53, 60, 87);
+            flex-direction: column;
+        }
+        h1{
+            margin-bottom: 20px;
+            font-weight: normal;
+            color: white;
+        }
+        .loader{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: 1px solid;
+            border-color: white transparent white transparent;
+            animation: spin 1.5s  linear infinite;
+
+        }
+
+        @keyframes spin {
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SPINERR IN CSS</h1>
+    <div class="loader"></div>
+</body>
+
+</html>

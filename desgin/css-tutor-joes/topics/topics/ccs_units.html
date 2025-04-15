@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0; 
+           padding: 0;
+           box-sizing: border-box;
+        }
+        .parent{
+            font-size: 5px;
+        }
+        .px{
+            font-size: 32px;
+        }
+        .em{
+            font-size: 2em; 
+            /* this working browser size but this working parent  */
+        }
+        .rem{
+            font-size: 2em; 
+            /* this working html tag size but this working not parent  */
+        }
+        .box{
+        width: 100vw;
+        /* width: 100vmin; which one is  minimum hieght or width it will take 
+        width: 100vmax;  which one is  minimum hieght or width it will take  */
+
+        height: 100vh;
+        background-color: orangered;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="px">balamurugan px</div>
+    <div class="em">balamurugan em</div>
+    <div class="rem">balamurugan rem?</div>
+
+    <div class="parent">
+        <div class="em">balamurugan em</div>
+    </div> -->
+    <div class="box">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ab repellendus nam cumque qui earum quo enim eum nisi! Voluptatum est eius nemo eligendi, praesentium voluptas! Quas eius amet atque?
+    </div>
+
+</body>
+</html>

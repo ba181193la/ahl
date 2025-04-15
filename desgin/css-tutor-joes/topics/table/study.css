@@ -1,0 +1,48 @@
+/* ............................ */
+
+.table {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 600px;
+    display: table;
+}
+.caption{
+    display:table-caption;
+    text-align: center;
+    color: rgb(39, 81, 48);
+    font-weight: bold;
+    padding: 10x;
+
+}
+.header{
+    background-color:  orangered;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display:table-header-group;
+}
+.row {
+    display: table-row;
+}
+
+.col {
+    border: 1px solid orangered;
+    padding: 10px 30px;
+    display: table-cell;
+}
+.col-group{
+display: table-column-group;
+}
+
+.table-col{
+ display: table-column;
+}
+.col2{
+    width: 50px;
+    background-color: rgb(37, 193, 48);
+}
+
+.row-group{
+    display: table-row-group;
+    color: orangered;
+}
